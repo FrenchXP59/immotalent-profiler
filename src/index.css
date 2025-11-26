@@ -544,4 +544,44 @@ svg {
   margin: 12px 0;
   font-style: italic;
   border-left: 3px solid #60a5fa;
+
+
+/* Profile Cards with Colored Rectangles */
+.profile-card {
+  position: relative;
+  padding: 20px;
+  background: #fef9f3;
+  border-radius: 12px;
+  border-left: 6px solid;
+  margin: 12px 0;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
+
+.profile-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+/* Colored borders for each profile */
+.profile-card.chasseur {
+  border-left-color: #ef4444;
+  background: #fef2f2;
+}
+
+.profile-card.eleveur {
+  border-left-color: #22c55e;
+  background: #f0fdf4;
+}
+
+.profile-card.gestionnaire {
+  border-left-color: #3b82f6;
+  background: #eff6ff;
+}
+
+.profile-card.competitor {
+  border-left-color: #eab308;
+  background: #fefce8;
+}}
