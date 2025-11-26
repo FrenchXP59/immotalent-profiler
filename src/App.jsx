@@ -655,8 +655,7 @@ export default function ImmoTalentApp() {
                 const isDominant = dominantProfile.title === profile.title;
 
                 return (
-                  <div key={key} className={`p-4 rounded-xl border ${isDominant ? 'border-indigo-200 bg-indigo-50' : 'border-gray-100'}`}>
-                    <div className="flex items-center justify-between mb-2">
+            <div key={key} className={`profile-card ${key} p-4 rounded-xl border ${isDominant ? 'border-indigo-200 bg-indigo-50' : 'border-gray-100'}`}>                    <div className="flex items-center justify-between mb-2">
                       <div className="flex items-center gap-2">
                         <div className={`p-1.5 rounded-lg ${profile.textColor} bg-opacity-10`}>
                           {profile.icon}
