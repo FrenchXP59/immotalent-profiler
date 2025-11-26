@@ -552,7 +552,7 @@ svg {
   padding: 20px;
   background: #fef9f3;
   border-radius: 12px;
-  border-left: 6px solid;
+  border-left: 4px solid #ef4444;
   margin: 12px 0;
   display: flex;
   align-items: center;
@@ -567,21 +567,17 @@ svg {
 
 /* Colored borders for each profile */
 .profile-card.chasseur {
-  border-left-color: #ef4444;
-  background: #fef2f2;
+  border-left: 4px solid #ef4444 !important;  background: #fef2f2;
 }
 
 .profile-card.eleveur {
-  border-left-color: #22c55e;
-  background: #f0fdf4;
+  border-left: 4px solid #22c55e !important;  background: #f0fdf4;
 }
 
 .profile-card.gestionnaire {
-  border-left-color: #3b82f6;
-  background: #eff6ff;
+  border-left: 4px solid #3b82f6 !important;  background: #eff6ff;
 }
 
 .profile-card.competitor {
-  border-left-color: #eab308;
-  background: #fefce8;
+  border-left: 4px solid #eab308 !important;  background: #fefce8;
 }}
